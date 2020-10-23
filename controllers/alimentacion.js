@@ -100,7 +100,6 @@ const itemsRangoUltimos = async( req, res = response ) => {
 const itemsTodosDia = async( req, res = response ) => {
 	const desde = req.query.desde;
 	const hasta = req.query.hasta;
-
     try {
 
 		const items = await Alimentacion.find({

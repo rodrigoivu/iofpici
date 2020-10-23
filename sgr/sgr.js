@@ -531,7 +531,7 @@ const ys = tf.tensor2d([
 // });
 
 model.fit(xs, ys, {
-    epochs: 2000,
+    epochs: 100,
     callbacks: {
       onEpochEnd: (epoch, log) => 
         {   

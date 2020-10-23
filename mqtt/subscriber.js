@@ -11,9 +11,15 @@ const Doser = require('../models/Doser');
 const Jaula = require('../models/Jaula');
 const Linea = require('../models/Linea');
 const Silo = require('../models/Silo');
+const Bloweralarm   = require('../models/Bloweralarm'  );
+const Doseralarm    = require('../models/Doseralarm'   );
+const Selectoralarm = require('../models/Selectoralarm');
 
 let socketLocal; // se rescata del index.js
 let ioLocal; // se rescata del index.js
+
+let AL_array_G ;
+let AD_array_G;
 
 const mqttSubscriber = () => {
 
@@ -25,8 +31,11 @@ const mqttSubscriber = () => {
                 'iofish/ciclo' :{ qos:0 },
                 'iofish/okguardacalib':{ qos:0 },
                 'iofish/cuentamuevedosercalib':{ qos:0 },
-				'iofish/okmuevedosercalib' :{ qos:0 }
-				// 'iofish/status' :{ qos:0 },
+				'iofish/okmuevedosercalib' :{ qos:0 },
+				'iofish/alarma' :{ qos:0 },
+				'iofish/alarmablower':{ qos:0 },
+				'iofish/alarmadoser':{ qos:0 },
+				'iofish/alarmaselector':{ qos:0 }
             });
 
     })
@@ -56,8 +65,23 @@ const mqttSubscriber = () => {
         }
         if(topic == 'iofish/okmuevedosercalib'){
             mensajeOkMueveDoserCalib(items);
-        }
-       
+		}
+		
+
+        if(topic == 'iofish/alarmablower'){
+			//console.log(items);
+			saveAlarmaBlower(items);
+		}
+	
+		if(topic == 'iofish/alarmadoser'){
+				//console.log(items);
+			saveAlarmaDoser(items);
+		}
+	
+		if(topic == 'iofish/alarmaselector'){
+				//console.log(items);
+			saveAlarmaSelector(items);
+		}
     
     })
 }
@@ -213,10 +237,30 @@ const pruebaAli_1 = async(item, itemsLineas) => {
 	}
 	
 	mensajeCiclo(item);
+
+	
 }
 
 
+// const detectaAlarmas = (item) => {
 
+	
+// 	if(item.T > 0 ){
+// 		let AL_array = [
+// 			item.T & 1, item.T & 2, item.T & 4, item.T & 8,
+// 			item.T & 16, item.T & 32, item.T & 64, item.T & 128,
+// 		  ];
+// 		if(AL_array != AL_array_G)
+// 		console.log(AL_array);
+// 	}
+
+// 	if (item.U > 0 ){
+// 		let AD_array=[item.U & 1, item.U & 2, item.U & 4, item.U & 8];
+// 		console.log(AD_array);
+// 	}
+
+
+// }
 
 
 
@@ -326,6 +370,126 @@ const saveJaulaDataToAlimentacion = (item) => {
 		   		}
 		   	);
 	}
+}
+
+
+
+const saveAlarmaBlower = (item) =>{
+	var ts = new Date();
+	Linea.find({}) 
+		   .exec(
+		   		(err, itemsFound) => {
+		   			if (err){
+		   				console.log(err);
+		   			}else{
+
+		   				var lineaSel=itemsFound[item.LI-1];
+
+		   				if(lineaSel){
+		   					//ACTUALIZAR ALARMA
+							var alarmablower = new Bloweralarm({
+											blower   : lineaSel.blower,
+											detalle : item.DT,
+											ts      : ts
+										});
+			   				//GUARDAR EN ALARMAS  HISTORUCA
+			   				alarmablower.save((err, itemStored) => {
+								if(err){
+									console.log(err);
+								}else{
+									if(!itemStored){
+										console.log('Imposible actualizar item');
+									}else{
+										
+								
+									}
+								}
+							});
+		   				}
+		   			}
+		   	});
+}
+
+const saveAlarmaDoser = (item) => {
+	var doserSel;
+	var ts = new Date();
+	Linea.find({}) 
+		   .exec(
+		   		(err, itemsFound) => {
+		   			if (err){
+		   				console.log(err);
+		   			}else{
+		   				var lineaSel=itemsFound[item.LI-1];
+		   				if (lineaSel){
+		   					Doser.find({'linea': lineaSel._id}) 
+							   .exec(
+							   		(err, itemsFound1) => {
+							   			if (err){
+							   				console.log(err);
+							   			}else{
+							   				doserSel = itemsFound1[item.DS-1];
+							   				if(doserSel){
+							   					//ACTUALIZAR ALARMA
+												var alarmadoser = new Doseralarm({
+																doser   : doserSel._id,
+																detalle : item.DT,
+																ts      : ts
+															});
+								   				//GUARDAR EN ALARMAS  HISTORUCA
+								   				alarmadoser.save((err, itemStored) => {
+													if(err){
+														console.log(err);
+													}else{
+														if(!itemStored){
+															console.log('Imposible actualizar item');
+														}else{
+															
+													
+														}
+													}
+												});
+							   				}
+							   			}
+							   	});
+		   				}
+		   			}
+		   	});
+}
+
+const saveAlarmaSelector = (item) => {
+	var ts = new Date();
+	Linea.find({}) 
+		   .exec(
+		   		(err, itemsFound) => {
+		   			if (err){
+		   				console.log(err);
+		   			}else{
+		   				var lineaSel=itemsFound[item.LI-1];
+		   				if (lineaSel) {
+		   					//ACTUALIZAR ALARMA
+							var alarmaselector = new Selectoralarm({
+											selector : lineaSel.selector,
+											detalle  : item.DT,
+											ts       : ts
+										});
+			   				//GUARDAR EN ALARMAS  HISTORICA
+			   				alarmaselector.save((err, itemStored) => {
+								if(err){
+									console.log(err);
+								}else{
+									if(!itemStored){
+										console.log('Imposible actualizar item');
+									}else{
+										
+								
+									}
+								}
+							});
+		   				}
+		   				
+
+		   			}
+		   	});
 }
 
 const asignarSocket = (socket,io) => {
