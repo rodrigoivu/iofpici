@@ -45025,7 +45025,7 @@ let CanvasdrawService = /*@__PURE__*/ (() => {
             var anchoValorEntero = ctx.measureText(valorEntero.toString()).width;
             //VALOR DECIMAL
             //var valorDecimal=(parseFloat(valor)-valorEntero).toFixed(1).slice(1);
-            var valorDecimal = (porcent - valorEntero).toFixed(1).slice(1);
+            var valorDecimal = (porcent - valorEntero).toFixed(3).substr(1, 2);
             ctx.font = this.fontDecimal;
             var anchoValorDecimal = ctx.measureText(valorDecimal).width;
             //UNIDAD
@@ -45134,11 +45134,11 @@ let CanvasdrawService = /*@__PURE__*/ (() => {
             ctx.fillStyle = hex2rgb(colorvalor, 1);
             ctx.font = this.fontValor;
             // ctx.fillText(valorEntero+'', x-(anchoValorEntero+anchoValorDecimal)/2, y+altoTitle+anchoTotal/2 + margen,100);
-            ctx.fillText(valorEntero + '', x - anchoCanvas / 8 - (anchoValorEntero + anchoValorDecimal) / 2, y, 100);
+            ctx.fillText(valorEntero + '', x - anchoCanvas / 9 - (anchoValorEntero + anchoValorDecimal) / 2, y, 100);
             ctx.font = this.fontDecimal;
-            ctx.fillText(valorDecimal, x - anchoCanvas / 8 - (anchoValorEntero + anchoValorDecimal) / 2 + anchoValorEntero, y, 100);
+            ctx.fillText(valorDecimal, x - anchoCanvas / 9 - (anchoValorEntero + anchoValorDecimal) / 2 + anchoValorEntero, y, 100);
             // ctx.fillStyle = hex2rgb(colorvalor,1);
-            ctx.fillText(unidad, x - anchoCanvas / 8 + (anchoValorEntero + anchoValorDecimal) / 2 + anchoUnidad / 2, y, 100);
+            ctx.fillText(unidad, x - anchoCanvas / 9 + (anchoValorEntero + anchoValorDecimal) / 2 + anchoUnidad / 2, y, 100);
             //INDICADOR VALOR ALARMA
             //var yValor = m*parseFloat(limite) + c;
             // var yValor = m*limite + c;

@@ -19,11 +19,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _services_service_index__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/service.index */ "./src/app/services/service.index.ts");
 /* harmony import */ var _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/flex-layout/flex */ "./node_modules/@angular/flex-layout/__ivy_ngcc__/esm2015/flex.js");
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/flex-layout/extended */ "./node_modules/@angular/flex-layout/__ivy_ngcc__/esm2015/extended.js");
-/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js");
-/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/tooltip */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/tooltip.js");
+/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/tooltip */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/tooltip.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/flex-layout/extended */ "./node_modules/@angular/flex-layout/__ivy_ngcc__/esm2015/extended.js");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/progress-bar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/progress-bar.js");
 /* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/checkbox */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/checkbox.js");
 /* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
@@ -74,46 +74,32 @@ function Dashboard1Component_mat_card_subtitle_13_Template(rf, ctx) {
 }
 function Dashboard1Component_div_19_i_44_Template(rf, ctx) {
     if (rf & 1) {
-        const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+        const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "i", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_i_44_Template_i_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r12); const linea_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r10.accionPlay(linea_r4._id); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_i_44_Template_i_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11); const linea_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r9.accionPlay(linea_r4._id); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     }
 }
 function Dashboard1Component_div_19_i_45_Template(rf, ctx) {
     if (rf & 1) {
-        const _r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+        const _r14 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "i", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_i_45_Template_i_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r15); const linea_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r13 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r13.accionPause(linea_r4._id); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_i_45_Template_i_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r14); const linea_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r12.accionPause(linea_r4._id); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     }
 }
-function Dashboard1Component_div_19_h6_49_Template(rf, ctx) {
+function Dashboard1Component_div_19_h6_52_Template(rf, ctx) {
     if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h6", 28);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "small");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    }
-    if (rf & 2) {
-        const linea_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](linea_r4.estado);
-    }
-}
-function Dashboard1Component_div_19_h6_50_Template(rf, ctx) {
-    if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h6", 29);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "ALARMA");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     }
 }
-function Dashboard1Component_div_19_div_51_div_1_h6_8_Template(rf, ctx) {
+function Dashboard1Component_div_19_div_53_div_1_h6_8_Template(rf, ctx) {
     if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h6", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h6", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](3, "number");
@@ -121,14 +107,14 @@ function Dashboard1Component_div_19_div_51_div_1_h6_8_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     }
     if (rf & 2) {
-        const jaula_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
+        const jaula_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2).$implicit;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"](" ", jaula_r17.visita_actual, "\u00A0/\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](3, 2, jaula_r17.visitas, "1.0-0"), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"](" ", jaula_r15.visita_actual, "\u00A0/\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](3, 2, jaula_r15.visitas, "1.0-0"), "");
     }
 }
-function Dashboard1Component_div_19_div_51_div_1_h6_9_Template(rf, ctx) {
+function Dashboard1Component_div_19_div_53_div_1_h6_9_Template(rf, ctx) {
     if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h6", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h6", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " - ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -136,21 +122,21 @@ function Dashboard1Component_div_19_div_51_div_1_h6_9_Template(rf, ctx) {
     }
 }
 const _c1 = function (a0, a1, a2, a3, a4) { return { leftbaralim: a0, leftbarCat0: a1, leftbarCat1: a2, leftbarCat2: a3, leftbarCat3: a4 }; };
-function Dashboard1Component_div_19_div_51_div_1_Template(rf, ctx) {
+function Dashboard1Component_div_19_div_53_div_1_Template(rf, ctx) {
     if (rf & 1) {
-        const _r23 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 31);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 32);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 33);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_div_51_div_1_Template_div_click_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3); return ctx_r22.toggleClass($event, "flipped"); });
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 34);
+        const _r21 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 31);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 32);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_div_53_div_1_Template_div_click_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r21); const ctx_r20 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](3); return ctx_r20.toggleClass($event, "flipped"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 33);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 34);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h3", 17);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, Dashboard1Component_div_19_div_51_div_1_h6_8_Template, 4, 5, "h6", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, Dashboard1Component_div_19_div_51_div_1_h6_9_Template, 3, 0, "h6", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](8, Dashboard1Component_div_19_div_53_div_1_h6_8_Template, 4, 5, "h6", 35);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, Dashboard1Component_div_19_div_53_div_1_h6_9_Template, 3, 0, "h6", 35);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "mat-progress-bar", 36);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 37);
@@ -160,13 +146,13 @@ function Dashboard1Component_div_19_div_51_div_1_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](15, "number");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h6", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "h6", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](19, "number");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "h6", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "h6", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](23, "number");
@@ -175,7 +161,7 @@ function Dashboard1Component_div_19_div_51_div_1_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "div", 39);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "mat-checkbox", 40);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function Dashboard1Component_div_19_div_51_div_1_Template_mat_checkbox_change_25_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const jaula_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r24.selecciona_en_ciclo(jaula_r17._id, $event.checked); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("change", function Dashboard1Component_div_19_div_53_div_1_Template_mat_checkbox_change_25_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r21); const jaula_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r22 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r22.selecciona_en_ciclo(jaula_r15._id, $event.checked); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 41);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "i", 42);
@@ -191,19 +177,19 @@ function Dashboard1Component_div_19_div_51_div_1_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](33);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "h6", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "h6", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](37, "number");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "h6", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "h6", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](41, "number");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "h6", 28);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "h6", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](45, "number");
@@ -213,7 +199,7 @@ function Dashboard1Component_div_19_div_51_div_1_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 47);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "div", 48);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "button", 49);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_div_51_div_1_Template_button_click_48_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const jaula_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r26.editarPPM(jaula_r17._id); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_div_53_div_1_Template_button_click_48_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r21); const jaula_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r24 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r24.editarPPM(jaula_r15._id); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "PPM:\u00A0\u00A0");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -223,7 +209,7 @@ function Dashboard1Component_div_19_div_51_div_1_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "button", 49);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_div_51_div_1_Template_button_click_54_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const jaula_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r28 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r28.editarPPV(jaula_r17._id); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_div_53_div_1_Template_button_click_54_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r21); const jaula_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r26 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r26.editarPPV(jaula_r15._id); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "small");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, "PPV:\u00A0\u00A0");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -236,7 +222,7 @@ function Dashboard1Component_div_19_div_51_div_1_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "div", 50);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "div", 51);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_div_51_div_1_Template_div_click_61_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r23); const jaula_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r30 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r30.openDialogJau(jaula_r17); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_div_19_div_53_div_1_Template_div_click_61_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r21); const jaula_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit; const ctx_r28 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r28.openDialogJau(jaula_r15); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](62, "i", 52);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 53);
@@ -250,52 +236,52 @@ function Dashboard1Component_div_19_div_51_div_1_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     }
     if (rf & 2) {
-        const jaula_r17 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
+        const jaula_r15 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction5"](40, _c1, jaula_r17.estado, jaula_r17.categoria == 0, jaula_r17.categoria == 1, jaula_r17.categoria == 2, jaula_r17.categoria == 3));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction5"](40, _c1, jaula_r15.estado, jaula_r15.categoria == 0, jaula_r15.categoria == 1, jaula_r15.categoria == 2, jaula_r15.categoria == 3));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](jaula_r17.nombre);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](jaula_r15.nombre);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !jaula_r17.manual);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !jaula_r15.manual);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", jaula_r17.manual);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", jaula_r15.manual);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", 100 * jaula_r17.dado / (jaula_r17.kg_tot + 1));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", 100 * jaula_r15.dado / (jaula_r15.kg_tot + 1));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](15, 16, jaula_r17.dado * 1000, "1.0-3"), "\u00A0g");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](15, 16, jaula_r15.dado * 1000, "1.0-3"), "\u00A0g");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("PPM:\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](19, 19, jaula_r17.ppm, "1.0-2"), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("PPM:\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](19, 19, jaula_r15.ppm, "1.0-2"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("PPV:\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](23, 22, jaula_r17.ppv, "1.0-2"), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("PPV:\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](23, 22, jaula_r15.ppv, "1.0-2"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("checked", jaula_r17.en_ciclo);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("checked", jaula_r15.en_ciclo);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction5"](46, _c1, jaula_r17.estado, jaula_r17.categoria == 0, jaula_r17.categoria == 1, jaula_r17.categoria == 2, jaula_r17.categoria == 3));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction5"](46, _c1, jaula_r15.estado, jaula_r15.categoria == 0, jaula_r15.categoria == 1, jaula_r15.categoria == 2, jaula_r15.categoria == 3));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](jaula_r17.nombre);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](jaula_r15.nombre);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("kg tot:\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](37, 25, jaula_r17.kg_tot, "1.0-0"), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("kg tot:\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](37, 25, jaula_r15.kg_tot, "1.0-0"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("g/v:\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](41, 28, jaula_r17.kg_visita * 1000, "1.0-1"), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("g/v:\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](41, 28, jaula_r15.kg_visita * 1000, "1.0-1"), " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("g/m:\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](45, 31, jaula_r17.kg_min * 1000, "1.0-1"), "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("g/s:\u00A0", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](45, 31, jaula_r15.kg_min * 1000 / 60, "1.0-1"), "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](53, 34, jaula_r17.ppm, "1.0-2"), "\u00A0");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](53, 34, jaula_r15.ppm, "1.0-2"), "\u00A0");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](59, 37, jaula_r17.ppv, "1.0-2"), "\u00A0");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](59, 37, jaula_r15.ppv, "1.0-2"), "\u00A0");
     }
 }
-function Dashboard1Component_div_19_div_51_Template(rf, ctx) {
+function Dashboard1Component_div_19_div_53_Template(rf, ctx) {
     if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, Dashboard1Component_div_19_div_51_div_1_Template, 65, 52, "div", 30);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, Dashboard1Component_div_19_div_53_div_1_Template, 65, 52, "div", 29);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     }
     if (rf & 2) {
-        const jaula_r17 = ctx.$implicit;
+        const jaula_r15 = ctx.$implicit;
         const linea_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", linea_r4._id == jaula_r17.linea);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", linea_r4._id == jaula_r15.linea);
     }
 }
 function Dashboard1Component_div_19_Template(rf, ctx) {
@@ -379,13 +365,17 @@ function Dashboard1Component_div_19_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Estado:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](49, Dashboard1Component_div_19_h6_49_Template, 3, 1, "h6", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](50, Dashboard1Component_div_19_h6_50_Template, 3, 0, "h6", 24);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "h6", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "small");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](51);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](52, Dashboard1Component_div_19_h6_52_Template, 3, 0, "h6", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](51, Dashboard1Component_div_19_div_51_Template, 2, 1, "div", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](53, Dashboard1Component_div_19_div_53_Template, 2, 1, "div", 25);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     }
     if (rf & 2) {
@@ -407,8 +397,8 @@ function Dashboard1Component_div_19_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !linea_r4.accion);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", linea_r4.accion);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !linea_r4.alarma);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](linea_r4.estado);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", linea_r4.alarma);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
@@ -437,6 +427,8 @@ let Dashboard1Component = /*@__PURE__*/ (() => {
             this._tasasService = _tasasService;
             this._ngZone = _ngZone;
             this.dialog = dialog;
+            //Piscicultura
+            this.paraPiscicultura = true;
             this.classFlip = 'card';
             this.estado_A = false;
             this.punteroSop = 'linkModalSop';
@@ -687,6 +679,13 @@ let Dashboard1Component = /*@__PURE__*/ (() => {
                 this.jaulasDadoDia();
             });
         }
+        actualizaSilos() {
+            this._siloService.itemsTodos()
+                .subscribe((resp) => {
+                this.silos = resp.items;
+                this.DibujaObjetoCanvas([]);
+            });
+        }
         generaTabla() {
             let itemE;
             for (let l of this.lineas) {
@@ -721,6 +720,10 @@ let Dashboard1Component = /*@__PURE__*/ (() => {
         }
         jaulasDadoDia() {
             var agruppporjaula = [];
+            for (let j of this.jaulas) {
+                j.dado = 0;
+                j.visita_actual = 0;
+            }
             if (this.ListaAlimentacion.length > 0) {
                 for (let j of this.jaulas) {
                     agruppporjaula = this.ListaAlimentacion.filter(x => x.jaula._id == j._id);
@@ -750,6 +753,10 @@ let Dashboard1Component = /*@__PURE__*/ (() => {
                 //this.enviaJaulasLinea_PLC(jaulaSel.linea);  
                 this.enviaSetJaula(jaulaSel);
             });
+            if (jaulaSel.kg_tot == 0) {
+                sweetalert2__WEBPACK_IMPORTED_MODULE_3___default.a.fire('Ajustar en planificación!', '', 'warning');
+                jaulaSel.en_ciclo = false;
+            }
         }
         enviaJaulasLinea_PLC(idLinea) {
             let jaulas_por_linea;
@@ -776,8 +783,11 @@ let Dashboard1Component = /*@__PURE__*/ (() => {
         }
         enviaSetJaula(item) {
             //Tiempo extra no se considera en Piscicultura
-            var tpo_extra;
-            tpo_extra = this.calculaTpoExtra(item);
+            let tpo_extra = 0;
+            //Solo calcular si no es para piscicultura
+            if (!this.paraPiscicultura) {
+                tpo_extra = this.calculaTpoExtra(item);
+            }
             var dataSJ;
             //Indice de linea
             var li = this.lineas.map(x => x._id).indexOf(item.linea) + 1;
@@ -1527,12 +1537,13 @@ let Dashboard1Component = /*@__PURE__*/ (() => {
                 var _t;
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.canvas = _t.first);
             }
-        }, decls: 20, vars: 10, consts: [["fxLayout", "row wrap", "fxLayoutGap", "0.5%"], ["fxLayout", "row wrap"], ["fxFlex", "initial"], [3, "fxFlex"], ["width", "180", "height", "600", "id", "plano", 3, "ngClass"], ["canvas", ""], ["fxFlex", "auto"], ["fxFlex", "320px"], [1, "text-white", 3, "ngClass"], [4, "ngIf"], ["fxFlex", "100"], ["fxLayout", "row wrap", "fxLayoutGap", "1px", 4, "ngFor", "ngForOf"], ["href", "javascript:location.reload()", 1, ""], ["fxLayout", "row wrap", "fxLayoutGap", "1px"], ["fxFlex", "320px", 1, "bg-inverse", "text-white", "m-t-10"], ["fxLayout", "row wrap", "fxLayoutGap", "5px", 1, "p-0"], ["fxFlex", "45px", "fxLayoutAlign", "center center", 1, "p-10", "b-r", "text-center"], [1, "m-0"], ["fxFlex", "100px", 1, "p-10", "0", "b-r"], ["fxFlex", "50%"], ["fxFlex", "100px", 1, "p-10"], ["matRipple", "", "matRippleCentered", "true", "class", "ti-control-play text-info puntero", "matTooltip", "Iniciar Alimentaci\u00F3n", 3, "click", 4, "ngIf"], ["matRipple", "", "matRippleCentered", "true", "class", "ti-control-stop text-danger puntero", "matTooltip", "Detener Alimentaci\u00F3n", 3, "click", 4, "ngIf"], ["class", "m-0 text-muted", 4, "ngIf"], ["class", "m-0 text-danger", 4, "ngIf"], [4, "ngFor", "ngForOf"], ["matRipple", "", "matRippleCentered", "true", "matTooltip", "Iniciar Alimentaci\u00F3n", 1, "ti-control-play", "text-info", "puntero", 3, "click"], ["matRipple", "", "matRippleCentered", "true", "matTooltip", "Detener Alimentaci\u00F3n", 1, "ti-control-stop", "text-danger", "puntero", 3, "click"], [1, "m-0", "text-muted"], [1, "m-0", "text-danger"], ["fxFlex", "220px", "class", "p-10", 4, "ngIf"], ["fxFlex", "220px", 1, "p-10"], [1, "flip-card"], [1, "flip-card-inner", 3, "click"], [1, "flip-card-front", "bg-inverse", "text-white", 3, "ngClass"], ["fxFlex", "80px", 1, "p-10", "b-r", "text-center"], ["color", "primary", "mode", "determinate", 1, "m-t-10", 3, "value"], ["fxFlex", "80px", 1, "p-10", "p-l-0", "text-left"], [1, "m-0", "m-b-9"], ["fxLayout", "column", "fxFlex", "10px", "fxLayoutAlign", "center center", 1, "p-l-5"], [1, "p-10", 3, "checked", "change"], [1, "puntero"], ["id", "flip", "matRipple", "", "matRippleCentered", "true", 1, "ti-back-right"], [1, "flip-card-back", "bg-inverse", "text-muted", 3, "ngClass"], ["fxLayout", "row wrap", "fxLayoutGap", "1px", "fxLayoutAlign", "start"], ["fxFlex", "80px", 1, "p-l-5", "p-t-2", "text-left", "b-r"], [1, "m-0", "m-b-5"], ["fxFlex", "80px"], ["fxLayout", "column", "fxLayoutAlign", "center center"], ["mat-icon-button", "", 3, "click"], ["fxFlex", "20px", 1, "p-l-5", "m-t-5", "text-center"], [1, "puntero", 3, "click"], ["id", "config_jaula", "matRipple", "", "matRippleCentered", "true", 1, "ti-settings"], [1, "p-t-20", "puntero"]], template: function Dashboard1Component_Template(rf, ctx) {
+        }, decls: 20, vars: 10, consts: [["fxLayout", "row wrap", "fxLayoutGap", "0.5%"], ["fxLayout", "row wrap"], ["fxFlex", "initial"], ["matTooltip", "Click para actualizar Silos", "matTooltipPosition", "above", "matTooltipShowDelay", "600", 3, "fxFlex", "click"], ["width", "180", "height", "600", "id", "plano", 3, "ngClass"], ["canvas", ""], ["fxFlex", "auto"], ["fxFlex", "320px"], [1, "text-white", 3, "ngClass"], [4, "ngIf"], ["fxFlex", "100"], ["fxLayout", "row wrap", "fxLayoutGap", "1px", 4, "ngFor", "ngForOf"], ["href", "javascript:location.reload()", 1, ""], ["fxLayout", "row wrap", "fxLayoutGap", "1px"], ["fxFlex", "340px", 1, "bg-inverse", "text-white", "m-t-10"], ["fxLayout", "row wrap", "fxLayoutGap", "5px", 1, "p-0"], ["fxFlex", "45px", "fxLayoutAlign", "center center", 1, "p-10", "b-r", "text-center"], [1, "m-0"], ["fxFlex", "100px", 1, "p-10", "0", "b-r"], ["fxFlex", "50%"], ["fxFlex", "180px", 1, "p-10"], ["matRipple", "", "matRippleCentered", "true", "class", "ti-control-play text-info puntero", "matTooltip", "Iniciar Alimentaci\u00F3n", 3, "click", 4, "ngIf"], ["matRipple", "", "matRippleCentered", "true", "class", "ti-control-stop text-danger puntero", "matTooltip", "Detener Alimentaci\u00F3n", 3, "click", 4, "ngIf"], [1, "m-0", "text-muted"], ["class", "m-0 text-danger", 4, "ngIf"], [4, "ngFor", "ngForOf"], ["matRipple", "", "matRippleCentered", "true", "matTooltip", "Iniciar Alimentaci\u00F3n", 1, "ti-control-play", "text-info", "puntero", 3, "click"], ["matRipple", "", "matRippleCentered", "true", "matTooltip", "Detener Alimentaci\u00F3n", 1, "ti-control-stop", "text-danger", "puntero", 3, "click"], [1, "m-0", "text-danger"], ["fxFlex", "220px", "class", "p-10", 4, "ngIf"], ["fxFlex", "220px", 1, "p-10"], [1, "flip-card"], [1, "flip-card-inner", 3, "click"], [1, "flip-card-front", "bg-inverse", "text-white", 3, "ngClass"], ["fxFlex", "80px", 1, "p-10", "b-r", "text-center"], ["class", "m-0 text-muted", 4, "ngIf"], ["color", "primary", "mode", "determinate", 1, "m-t-10", 3, "value"], ["fxFlex", "80px", 1, "p-10", "p-l-0", "text-left"], [1, "m-0", "m-b-9"], ["fxLayout", "column", "fxFlex", "10px", "fxLayoutAlign", "center center", 1, "p-l-5"], [1, "p-10", 3, "checked", "change"], [1, "puntero"], ["id", "flip", "matRipple", "", "matRippleCentered", "true", 1, "ti-back-right"], [1, "flip-card-back", "bg-inverse", "text-muted", 3, "ngClass"], ["fxLayout", "row wrap", "fxLayoutGap", "1px", "fxLayoutAlign", "start"], ["fxFlex", "80px", 1, "p-l-5", "p-t-2", "text-left", "b-r"], [1, "m-0", "m-b-5"], ["fxFlex", "80px"], ["fxLayout", "column", "fxLayoutAlign", "center center"], ["mat-icon-button", "", 3, "click"], ["fxFlex", "20px", 1, "p-l-5", "m-t-5", "text-center"], [1, "puntero", 3, "click"], ["id", "config_jaula", "matRipple", "", "matRippleCentered", "true", 1, "ti-settings"], [1, "p-t-20", "puntero"]], template: function Dashboard1Component_Template(rf, ctx) {
             if (rf & 1) {
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
+                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function Dashboard1Component_Template_div_click_3_listener() { return ctx.actualizaSilos(); });
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "canvas", 4, 5);
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1557,7 +1568,7 @@ let Dashboard1Component = /*@__PURE__*/ (() => {
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 10);
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, Dashboard1Component_div_19_Template, 52, 18, "div", 11);
+                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](19, Dashboard1Component_div_19_Template, 54, 18, "div", 11);
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
             }
@@ -1577,7 +1588,7 @@ let Dashboard1Component = /*@__PURE__*/ (() => {
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.lineaEstado);
             }
-        }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutGapDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultFlexDirective"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgClass"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_7__["DefaultClassDirective"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardHeader"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardTitle"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgIf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardContent"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgForOf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardSubtitle"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutAlignDirective"], _angular_material_core__WEBPACK_IMPORTED_MODULE_9__["MatRipple"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_10__["MatTooltip"], _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_11__["MatProgressBar"], _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_12__["MatCheckbox"], _angular_material_button__WEBPACK_IMPORTED_MODULE_13__["MatButton"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["DatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["DecimalPipe"]], styles: ["#plano[_ngcontent-%COMP%] {\n  \n  \n  background-color: rgba(0, 0, 0, 0);\n  background-size: 100% 100%;\n  \n  width: 100%;\n  margin: 0 auto;\n  display: block;\n  \n}\n\n.linkModalSop[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n\n.linkModalJau[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n\n.puntero[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n\n.leftbar[_ngcontent-%COMP%] {\n  \n  \n}\n\n.leftbarCat0[_ngcontent-%COMP%] {\n  border-right: 5px solid #03a5b299;\n}\n\n.leftbarCat1[_ngcontent-%COMP%] {\n  border-right: 5px solid #8bb92599;\n}\n\n.leftbarCat2[_ngcontent-%COMP%] {\n  border-right: 5px solid #ec7b2d99;\n}\n\n.leftbarCat3[_ngcontent-%COMP%] {\n  border-right: 5px solid #cf2f3199;\n}\n\n.leftbarpos[_ngcontent-%COMP%] {\n  \n  border: 3px solid #FF9800 !important;\n}\n\n.leftbaralim[_ngcontent-%COMP%] {\n  border-left: 3px solid #64DD17 !important;\n  border-top: 3px solid #64DD17 !important;\n  border-bottom: 3px solid #64DD17 !important;\n  border-top-right-radius: 3px;\n  border-bottom-right-radius: 3px;\n}\n\n.flip-card[_ngcontent-%COMP%] {\n  \n  \n  background-color: transparent;\n  width: 200px;\n  height: 90px;\n  \n  perspective: 1000px;\n  \n}\n\n\n\n.flip-card-inner[_ngcontent-%COMP%] {\n  \n  position: relative;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  transition: transform 0.8s;\n  transform-style: preserve-3d;\n}\n\n\n\n.flip-card-inner.flipped[_ngcontent-%COMP%] {\n  transform: rotateY(180deg);\n}\n\n\n\n.flip-card-front[_ngcontent-%COMP%], .flip-card-back[_ngcontent-%COMP%] {\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  box-shadow: 3px 5px 20px 2px rgba(0, 0, 0, 0.25);\n}\n\n\n\n.flip-card-front[_ngcontent-%COMP%] {\n  \n  \n  transform: rotateY(0deg);\n}\n\n\n\n.flip-card-back[_ngcontent-%COMP%] {\n  \n  \n  transform: rotateY(180deg);\n}\n\n.p-t-1[_ngcontent-%COMP%] {\n  padding-top: 0.1em;\n}\n\n.p-t-2[_ngcontent-%COMP%] {\n  padding-top: 0.2em;\n}\n\n.p-t-5[_ngcontent-%COMP%] {\n  padding-top: 0.5em;\n}\n\n.p-t-6[_ngcontent-%COMP%] {\n  padding-top: 0.6em;\n}\n\n.p-t-7[_ngcontent-%COMP%] {\n  padding-top: 0.7em;\n}\n\n.p-l-5[_ngcontent-%COMP%] {\n  padding-left: 0.5em;\n}\n\n.m-b-9[_ngcontent-%COMP%] {\n  margin-bottom: 0.9em;\n}\n\n\n\n.pad[_ngcontent-%COMP%] {\n  margin-top: 20px;\n  display: flex;\n  flex-direction: row;\n}\n\n.single-block[_ngcontent-%COMP%] {\n  flex: auto;\n  min-height: 40px;\n  min-width: 40px;\n  display: inline-block;\n  border: none;\n  margin-right: 5px;\n  cursor: pointer;\n  border-radius: 5px;\n  text-align: center;\n  border-color: green;\n  border-style: solid;\n}\n\n.btn[_ngcontent-%COMP%] {\n  margin-top: 20px;\n  color: black;\n  background: #ffffff;\n  text-transform: uppercase;\n  padding: 20px;\n  border: 5px solid black;\n  border-radius: 6px;\n  display: inline-block;\n}\n\n.btn[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n  background: green;\n  transition: all 0.4s ease 0s;\n}"] });
+        }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutGapDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultFlexDirective"], _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_6__["MatTooltip"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgClass"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_8__["DefaultClassDirective"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCardHeader"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCardTitle"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgIf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCardContent"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgForOf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCardSubtitle"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutAlignDirective"], _angular_material_core__WEBPACK_IMPORTED_MODULE_10__["MatRipple"], _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_11__["MatProgressBar"], _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_12__["MatCheckbox"], _angular_material_button__WEBPACK_IMPORTED_MODULE_13__["MatButton"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_7__["DatePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["DecimalPipe"]], styles: ["#plano[_ngcontent-%COMP%] {\n  \n  \n  background-color: rgba(0, 0, 0, 0);\n  background-size: 100% 100%;\n  \n  width: 100%;\n  margin: 0 auto;\n  display: block;\n  \n}\n\n.linkModalSop[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n\n.linkModalJau[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n\n.puntero[_ngcontent-%COMP%] {\n  cursor: pointer;\n}\n\n.leftbar[_ngcontent-%COMP%] {\n  \n  \n}\n\n.leftbarCat0[_ngcontent-%COMP%] {\n  border-right: 5px solid #03a5b299;\n}\n\n.leftbarCat1[_ngcontent-%COMP%] {\n  border-right: 5px solid #8bb92599;\n}\n\n.leftbarCat2[_ngcontent-%COMP%] {\n  border-right: 5px solid #ec7b2d99;\n}\n\n.leftbarCat3[_ngcontent-%COMP%] {\n  border-right: 5px solid #cf2f3199;\n}\n\n.leftbarpos[_ngcontent-%COMP%] {\n  \n  border: 3px solid #FF9800 !important;\n}\n\n.leftbaralim[_ngcontent-%COMP%] {\n  border-left: 3px solid #64DD17 !important;\n  border-top: 3px solid #64DD17 !important;\n  border-bottom: 3px solid #64DD17 !important;\n  border-top-right-radius: 3px;\n  border-bottom-right-radius: 3px;\n}\n\n.flip-card[_ngcontent-%COMP%] {\n  \n  \n  background-color: transparent;\n  width: 200px;\n  height: 90px;\n  \n  perspective: 1000px;\n  \n}\n\n\n\n.flip-card-inner[_ngcontent-%COMP%] {\n  \n  position: relative;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  transition: transform 0.8s;\n  transform-style: preserve-3d;\n}\n\n\n\n.flip-card-inner.flipped[_ngcontent-%COMP%] {\n  transform: rotateY(180deg);\n}\n\n\n\n.flip-card-front[_ngcontent-%COMP%], .flip-card-back[_ngcontent-%COMP%] {\n  border-top-right-radius: 5px;\n  border-bottom-right-radius: 5px;\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  -webkit-backface-visibility: hidden;\n          backface-visibility: hidden;\n  box-shadow: 3px 5px 20px 2px rgba(0, 0, 0, 0.25);\n}\n\n\n\n.flip-card-front[_ngcontent-%COMP%] {\n  \n  \n  transform: rotateY(0deg);\n}\n\n\n\n.flip-card-back[_ngcontent-%COMP%] {\n  \n  \n  transform: rotateY(180deg);\n}\n\n.p-t-1[_ngcontent-%COMP%] {\n  padding-top: 0.1em;\n}\n\n.p-t-2[_ngcontent-%COMP%] {\n  padding-top: 0.2em;\n}\n\n.p-t-5[_ngcontent-%COMP%] {\n  padding-top: 0.5em;\n}\n\n.p-t-6[_ngcontent-%COMP%] {\n  padding-top: 0.6em;\n}\n\n.p-t-7[_ngcontent-%COMP%] {\n  padding-top: 0.7em;\n}\n\n.p-l-5[_ngcontent-%COMP%] {\n  padding-left: 0.5em;\n}\n\n.m-b-9[_ngcontent-%COMP%] {\n  margin-bottom: 0.9em;\n}\n\n\n\n.pad[_ngcontent-%COMP%] {\n  margin-top: 20px;\n  display: flex;\n  flex-direction: row;\n}\n\n.single-block[_ngcontent-%COMP%] {\n  flex: auto;\n  min-height: 40px;\n  min-width: 40px;\n  display: inline-block;\n  border: none;\n  margin-right: 5px;\n  cursor: pointer;\n  border-radius: 5px;\n  text-align: center;\n  border-color: green;\n  border-style: solid;\n}\n\n.btn[_ngcontent-%COMP%] {\n  margin-top: 20px;\n  color: black;\n  background: #ffffff;\n  text-transform: uppercase;\n  padding: 20px;\n  border: 5px solid black;\n  border-radius: 6px;\n  display: inline-block;\n}\n\n.btn[_ngcontent-%COMP%]:hover {\n  color: #ffffff;\n  background: green;\n  transition: all 0.4s ease 0s;\n}"] });
     return Dashboard1Component;
 })();
 // MODALES
@@ -1744,7 +1755,7 @@ let ModaljaulaComponent = /*@__PURE__*/ (() => {
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("mat-dialog-close", ctx.data);
             }
-        }, directives: [_angular_material_dialog__WEBPACK_IMPORTED_MODULE_1__["MatDialogTitle"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutGapDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutAlignDirective"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_17__["MatFormField"], _angular_material_select__WEBPACK_IMPORTED_MODULE_18__["MatSelect"], _angular_forms__WEBPACK_IMPORTED_MODULE_16__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_16__["NgModel"], _angular_material_core__WEBPACK_IMPORTED_MODULE_9__["MatOption"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultFlexAlignDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultFlexDirective"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_14__["MatSlideToggle"], _angular_material_button__WEBPACK_IMPORTED_MODULE_13__["MatButton"], _angular_material_dialog__WEBPACK_IMPORTED_MODULE_1__["MatDialogClose"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["DecimalPipe"]], encapsulation: 2 });
+        }, directives: [_angular_material_dialog__WEBPACK_IMPORTED_MODULE_1__["MatDialogTitle"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutGapDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultLayoutAlignDirective"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_17__["MatFormField"], _angular_material_select__WEBPACK_IMPORTED_MODULE_18__["MatSelect"], _angular_forms__WEBPACK_IMPORTED_MODULE_16__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_16__["NgModel"], _angular_material_core__WEBPACK_IMPORTED_MODULE_10__["MatOption"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultFlexAlignDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_5__["DefaultFlexDirective"], _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_14__["MatSlideToggle"], _angular_material_button__WEBPACK_IMPORTED_MODULE_13__["MatButton"], _angular_material_dialog__WEBPACK_IMPORTED_MODULE_1__["MatDialogClose"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_7__["DecimalPipe"]], encapsulation: 2 });
     return ModaljaulaComponent;
 })();
 
@@ -2874,6 +2885,8 @@ let ImportarComponent = /*@__PURE__*/ (() => {
             this._alimentoService = _alimentoService;
             this.datePipe = datePipe;
             this.fb = fb;
+            //Piscicultura
+            this.paraPiscicultura = true;
             this.estadoAceptar = "";
             this.verdetalles = false;
             this.flgError = false;
@@ -3259,9 +3272,7 @@ let ImportarComponent = /*@__PURE__*/ (() => {
             this.jaulasEstado = [];
             //Numero de Jaulas por linea
             var numeroJaulas = this.jaulas.reduce((contadorJaula, n_linea) => {
-                //if (n_linea.en_ciclo){
                 contadorJaula[n_linea.linea.nombre] = (contadorJaula[n_linea.linea.nombre] || 0) + 1;
-                //}
                 return contadorJaula;
             }, {});
             for (let j of this.jaulas) {
@@ -3289,8 +3300,8 @@ let ImportarComponent = /*@__PURE__*/ (() => {
                 var peceston = 1000000 / peso; // peso [gr]  cuantos peces hay en una tonelada
                 let KPV = j.kg_visita;
                 let pporv = PPK * KPV;
-                var txtClassPPV = "text-success";
-                var txtClassPPM = "text-success";
+                let txtClassPPV = "text-success";
+                let txtClassPPM = "text-success";
                 if (min_visita > this.plan.minutosVisita + 0.005) {
                     txtClassPPV = "text-danger";
                 }
@@ -3304,6 +3315,12 @@ let ImportarComponent = /*@__PURE__*/ (() => {
                 // console.log(j.nombre)
                 // console.log(j.peso)
                 // console.log(SFR_MOD)
+                if (!j.en_ciclo) {
+                    KT = 0;
+                    j.obj_med = 0;
+                    txtClassPPV = "text-muted";
+                    txtClassPPM = "text-muted";
+                }
                 itemE = {
                     linea: linea,
                     idlinea: j.linea._id,
@@ -3347,33 +3364,37 @@ let ImportarComponent = /*@__PURE__*/ (() => {
                 if (numJau == 1) {
                     mintot = 2 * mintot;
                 }
-                let iLT = LT.map(x => x.linea).indexOf(linea);
-                if (iLT == -1) {
-                    var lt;
-                    lt = {
-                        linea: linea,
-                        tpo: mintot
-                    };
-                    LT.push(lt);
-                }
-                else {
-                    LT[iLT].tpo += mintot;
+                if (j.en_ciclo) {
+                    let iLT = LT.map(x => x.linea).indexOf(linea);
+                    if (iLT == -1) {
+                        var lt;
+                        lt = {
+                            linea: linea,
+                            tpo: mintot
+                        };
+                        LT.push(lt);
+                    }
+                    else {
+                        LT[iLT].tpo += mintot;
+                    }
                 }
                 this.jaulasEstado.push(itemE);
             }
             for (let j of this.jaulasEstado) {
-                let lts;
-                lts = LT.filter(x => x.linea == j.linea)[0];
-                j.tpoLinea = lts.tpo / 60; // lts.tpo esta en [min] se cambia a [hr]
-                let diffTpo = this.plan.hrsefectivas - j.tpoLinea;
-                if (Math.abs(diffTpo) <= 0.15) {
-                    j.txtClassPPM = "text-success";
-                }
-                if (diffTpo < -0.15) {
-                    j.txtClassPPM = "text-danger";
-                }
-                if (diffTpo > 0.15) {
-                    j.txtClassPPM = "text-warning";
+                if (j.en_ciclo) {
+                    let lts;
+                    lts = LT.filter(x => x.linea == j.linea)[0];
+                    j.tpoLinea = lts.tpo / 60; // lts.tpo esta en [min] se cambia a [hr]
+                    let diffTpo = this.plan.hrsefectivas - j.tpoLinea;
+                    if (Math.abs(diffTpo) <= 0.15) {
+                        j.txtClassPPM = "text-success";
+                    }
+                    if (diffTpo < -0.15) {
+                        j.txtClassPPM = "text-danger";
+                    }
+                    if (diffTpo > 0.15) {
+                        j.txtClassPPM = "text-warning";
+                    }
                 }
             }
             this.dataSourceObjeto = new _angular_material_table__WEBPACK_IMPORTED_MODULE_2__["MatTableDataSource"](this.jaulasEstado);
@@ -3382,158 +3403,141 @@ let ImportarComponent = /*@__PURE__*/ (() => {
             this.isLoadingResultsObjeto = false;
         }
         aplicaFormulaCriterioExacto() {
-            //esta funcion se ajusta a los minutos visita configurados y al tiempo disponible / numero maxiomo de jaulas por linea
+            //esta funcion se ajusta a los minutos visita configurados y al tiempo disponible / numero maximo de jaulas por linea
             //let itemE: itemJaula;
             var LT = [];
             //Numero de Jaulas por linea
-            var numeroJaulas = this.jaulas.reduce((contadorJaula, n_linea) => {
-                //if (n_linea.en_ciclo){
-                contadorJaula[n_linea.linea.nombre] = (contadorJaula[n_linea.linea.nombre] || 0) + 1;
-                //}
+            // var numeroJaulas = this.jaulas.reduce((contadorJaula,n_linea) => {
+            //   //if (n_linea.en_ciclo){
+            //     if(this.paraPiscicultura ){
+            //       if(n_linea.en_ciclo){
+            //         contadorJaula[n_linea.linea.nombre] = (contadorJaula[n_linea.linea.nombre] || 0) + 1;
+            //       }
+            //     }else{
+            //       contadorJaula[n_linea.linea.nombre] = (contadorJaula[n_linea.linea.nombre] || 0) + 1;
+            //     }
+            //   //}
+            //   return contadorJaula;
+            // }, {});
+            var numeroJaulas = this.jaulasEstado.reduce((contadorJaula, n_linea) => {
+                if (this.paraPiscicultura) {
+                    if (n_linea.en_ciclo) {
+                        contadorJaula[n_linea.linea] = (contadorJaula[n_linea.linea] || 0) + 1;
+                    }
+                }
+                else {
+                    contadorJaula[n_linea.linea] = (contadorJaula[n_linea.linea] || 0) + 1;
+                }
                 return contadorJaula;
             }, {});
             for (let j of this.jaulasEstado) {
-                //for (let j of this.jaulas) {
-                //var alimentos :Alimento[]=[];
-                //let idSilos: String[];
-                //let silos : Silo [];
-                let linea = j.linea;
-                let peso = j.peso;
-                //let siloSel    = this.getSilo(j.doser._id);
-                //let siloSelMed = this.getSilo(j.doser_med._id);
-                var siloSel = this.silos.filter(x => x._id == j.silo)[0];
-                var siloSelMed = this.silos.filter(x => x._id == j.silomed)[0];
-                let min_visita = this.plan.minutosVisita; // Minutos visita 1.5
-                let HD = this.plan.hrsefectivas; // en [Hr], en la formula se multiplica por 60 para trabajar en [min]
-                let PPK = this.getAlimento(siloSel.alimentos[0].alimento).ppk; //Pellet Por Kilo
-                //CALCULO DE SFR Y SFR_MOD EN BLUFEEDER
-                // let SFR     = this.getSFR(peso,j.fasfr)[0]/100;//[SFR] Real para ocupar en formula como decimal
-                // let SFR_MOD = this.getSFR(peso,j.fasfr)[1];//[%SFR Modelo]
-                let SFR = (j.sgr * j.fasfr) / 100; //[SFR] Real para ocupar en formula como decimal
-                let SFR_MOD = j.sgr; //[%SFR Modelo]
-                let P = j.peces; //Cantidad de peces por jaula
-                let Biomasa = P * peso / 1000; //[Kg]
-                let KT = Biomasa * SFR; // Kilos Totale [Kg]
-                let J = numeroJaulas[linea]; //Numero de jaulas por linea
-                //Jaula virtual cuando hay solo uno
-                if (J == 1) {
-                    J = 2;
-                }
-                let TS = (j.tposop) / 60; //Tiempo de soplado [min]
-                let TEV = min_visita - TS; //Tempo de entrega de alimento por visita por jaula
-                let PPM = (KT * PPK * J * (1 + TS / TEV)) / (P * HD * 60); //Pellet Pez Minuto
-                let T = (P * PPM) / PPK; //Tasa[Kg/min]
-                let TAj = KT / T; // Tiempo total[min] de alimentación por jaula
-                let V = TAj / TEV; // cantidad de Visitas
-                let PPV = TEV * PPM; // Pellet Pez Visita
-                let KPV = (P * PPV) / PPK; // Kilos por visita por jaula
-                let mintot = min_visita * V; // minutos totales alimentacion y soplado
-                let pporv = PPK * KPV;
-                var txtClassPPV = "text-success";
-                var txtClassPPM = "text-success";
-                if (min_visita > this.plan.minutosVisita + 0.005) {
-                    txtClassPPV = "text-danger";
-                }
-                j.ppk = PPK;
-                j.sfrmod = SFR_MOD;
-                j.realsfr = SFR * 100;
-                j.visitas = V;
-                j.kgtot = KT;
-                j.kgvisita = KPV;
-                j.ppv = PPV,
-                    j.ppm = PPM,
-                    j.kgm = T;
-                j.tpoalim = TEV * 60; // mostrar en [seg] Tpo entregado por visita; 
-                j.minvisita = min_visita;
-                j.mintot = mintot;
-                j.pporv = pporv;
-                j.txtClassPPV = txtClassPPV;
-                j.txtClassPPM = txtClassPPM;
-                //prueba 
-                // if(j.jaula == '09'){
-                //   console.log('Número:' + P);
-                //   console.log('Biomasa:' + Biomasa);
-                //   console.log('Peso:' + peso);
-                //   console.log('SFR Modelo:' + SFR_MOD);
-                //   console.log('Tiempo soplado:' + TS);
-                //   console.log('Kilos Totales:' + KT)
-                //   console.log('SFR Ocupado (Modelo*Factor Ajuste):' + SFR*100);
-                //   console.log('TEV:' + TEV);
-                //   console.log('PPM:' + PPM);
-                //   console.log('Velocidad:'+ T)
-                //   console.log('Tiempo total[min] de alimentación (TAj):' + TAj);
-                //   console.log('Visitas(TAj/TEV):' + V);
-                //   console.log('PPV:' + PPV);
-                //   console.log('Kilos por Visita:' + KPV);
-                //   console.log('Tiempo Total (Alimentacion mas soplado X Visitas):' + mintot);
-                // }
-                // itemE = {
-                //   linea     : linea,
-                //   idlinea   : j.linea._id,
-                //   jaula     : j.nombre,
-                //   aliasJaula: j.aliasJaula, 
-                //   peces     : P,
-                //   peso      : peso,
-                //   biomasa   : Biomasa / 1000, //de [Kg] ->[Ton]
-                //   fasfr     : j.fa_sfr, 
-                //   realsfr   : SFR * 100,  //*100 para mostrar en % 
-                //   ppk       : PPK, 
-                //   visitas   : V,
-                //   kgtot     : KT,
-                //   objmed    : j.obj_med,
-                //   silo      : siloSel._id,
-                //   silomed   : siloSelMed._id,
-                //   silos     : silos,
-                //   alimentos : alimentos,
-                //   kgvisita  : KPV,
-                //   ppv       : PPV, 
-                //   ppm       : PPM, 
-                //   kgm       : T, 
-                //   tpoalim   : TEV * 60, // mostrar en [seg] Tpo entregado por visita
-                //   tposop   : j.tpo_bw_silo, 
-                //   tposisel  : j.tpo_silo_sel, 
-                //   tposeljau : j.tpo_sel_jaula, 
-                //   minvisita : min_visita, 
-                //   mintot    : mintot, 
-                //   peceston  : peceston,
-                //   pporv     : pporv,  
-                //   sfrmod    : SFR_MOD, 
-                //   tpoLinea  : 0,
-                //   txtClassPPV  : txtClassPPV,
-                //   txtClassPPM  : txtClassPPM,
-                //   _id       : j._id
-                // }
-                //Crear array lineas
-                let numJau = numeroJaulas[linea];
-                if (numJau == 1) {
-                    mintot = 2 * mintot;
-                }
-                let iLT = LT.map(x => x.linea).indexOf(linea);
-                if (iLT == -1) {
-                    var lt;
-                    lt = {
-                        linea: linea,
-                        tpo: mintot
-                    };
-                    LT.push(lt);
+                if (j.en_ciclo) {
+                    //for (let j of this.jaulas) {
+                    //var alimentos :Alimento[]=[];
+                    //let idSilos: String[];
+                    //let silos : Silo [];
+                    let linea = j.linea;
+                    let peso = j.peso;
+                    //let siloSel    = this.getSilo(j.doser._id);
+                    //let siloSelMed = this.getSilo(j.doser_med._id);
+                    var siloSel = this.silos.filter(x => x._id == j.silo)[0];
+                    var siloSelMed = this.silos.filter(x => x._id == j.silomed)[0];
+                    let min_visita = this.plan.minutosVisita; // Minutos visita 1.5
+                    let HD = this.plan.hrsefectivas; // en [Hr], en la formula se multiplica por 60 para trabajar en [min]
+                    let PPK = this.getAlimento(siloSel.alimentos[0].alimento).ppk; //Pellet Por Kilo
+                    //CALCULO DE SFR Y SFR_MOD EN BLUFEEDER
+                    // let SFR     = this.getSFR(peso,j.fasfr)[0]/100;//[SFR] Real para ocupar en formula como decimal
+                    // let SFR_MOD = this.getSFR(peso,j.fasfr)[1];//[%SFR Modelo]
+                    let SFR = (j.sgr * j.fasfr) / 100; //[SFR] Real para ocupar en formula como decimal
+                    let SFR_MOD = j.sgr; //[%SFR Modelo]
+                    let P = j.peces; //Cantidad de peces por jaula
+                    let Biomasa = P * peso / 1000; //[Kg]
+                    let KT = Biomasa * SFR; // Kilos Totale [Kg]
+                    let J = numeroJaulas[linea]; //Numero de jaulas por linea
+                    //Jaula virtual cuando hay solo uno
+                    if (J == 1) {
+                        J = 2;
+                    }
+                    let TS = (j.tposop) / 60; //Tiempo de soplado [min]
+                    let TEV = min_visita - TS; //Tempo de entrega de alimento por visita por jaula
+                    let PPM = (KT * PPK * J * (1 + TS / TEV)) / (P * HD * 60); //Pellet Pez Minuto
+                    let T = (P * PPM) / PPK; //Tasa[Kg/min]
+                    let TAj = KT / T; // Tiempo total[min] de alimentación por jaula
+                    let V = TAj / TEV; // cantidad de Visitas
+                    let PPV = TEV * PPM; // Pellet Pez Visita
+                    let KPV = (P * PPV) / PPK; // Kilos por visita por jaula
+                    let mintot = min_visita * V; // minutos totales alimentacion y soplado
+                    let pporv = PPK * KPV;
+                    let txtClassPPV = "text-success";
+                    let txtClassPPM = "text-success";
+                    if (min_visita > this.plan.minutosVisita + 0.005) {
+                        txtClassPPV = "text-danger";
+                    }
+                    //proporcion silo prim silo secu
+                    let propSilos = 0;
+                    if (j.kgtot > 0) {
+                        propSilos = j.kgsecu / j.kgtot;
+                    }
+                    j.kgsecu = propSilos * KT;
+                    j.kgprim = KT - j.kgsecu;
+                    j.ppk = PPK;
+                    j.sfrmod = SFR_MOD;
+                    j.realsfr = SFR * 100;
+                    j.visitas = V;
+                    j.kgtot = KT;
+                    j.kgvisita = KPV;
+                    j.ppv = PPV,
+                        j.ppm = PPM,
+                        j.kgm = T;
+                    j.tpoalim = TEV * 60; // mostrar en [seg] Tpo entregado por visita; 
+                    j.minvisita = min_visita;
+                    j.mintot = mintot;
+                    j.pporv = pporv;
+                    j.txtClassPPV = txtClassPPV;
+                    j.txtClassPPM = txtClassPPM;
+                    //Crear array lineas
+                    let numJau = numeroJaulas[linea];
+                    if (numJau == 1) {
+                        mintot = 2 * mintot;
+                    }
+                    let iLT = LT.map(x => x.linea).indexOf(linea);
+                    if (iLT == -1) {
+                        var lt;
+                        lt = {
+                            linea: linea,
+                            tpo: mintot
+                        };
+                        LT.push(lt);
+                    }
+                    else {
+                        LT[iLT].tpo += mintot;
+                    }
                 }
                 else {
-                    LT[iLT].tpo += mintot;
+                    j.txtClassPPV = "text-muted";
+                    j.kgtot = 0;
+                    j.kgprim = 0;
+                    j.kgsecu = 0;
                 }
             }
             for (let j of this.jaulasEstado) {
-                let lts;
-                lts = LT.filter(x => x.linea == j.linea)[0];
-                j.tpoLinea = lts.tpo / 60; // lts.tpo esta en [min] se cambia a [hr]
-                let diffTpo = this.plan.hrsefectivas - j.tpoLinea;
-                if (Math.abs(diffTpo) <= 0.15) {
-                    j.txtClassPPM = "text-success";
+                if (j.en_ciclo) {
+                    let lts;
+                    lts = LT.filter(x => x.linea == j.linea)[0];
+                    j.tpoLinea = lts.tpo / 60; // lts.tpo esta en [min] se cambia a [hr]
+                    let diffTpo = this.plan.hrsefectivas - j.tpoLinea;
+                    if (Math.abs(diffTpo) <= 0.15) {
+                        j.txtClassPPM = "text-success";
+                    }
+                    if (diffTpo < -0.15) {
+                        j.txtClassPPM = "text-danger";
+                    }
+                    if (diffTpo > 0.15) {
+                        j.txtClassPPM = "text-warning";
+                    }
                 }
-                if (diffTpo < -0.15) {
-                    j.txtClassPPM = "text-danger";
-                }
-                if (diffTpo > 0.15) {
-                    j.txtClassPPM = "text-warning";
+                else {
+                    j.txtClassPPM = "text-muted";
                 }
             }
         }
@@ -3553,98 +3557,127 @@ let ImportarComponent = /*@__PURE__*/ (() => {
             //let itemE: itemJaula;
             var LT = [];
             //Numero de Jaula
-            const numeroJaulas = this.jaulas.reduce((contadorJaula, n_linea) => {
-                contadorJaula[n_linea.linea.nombre] = (contadorJaula[n_linea.linea.nombre] || 0) + 1;
+            // const numeroJaulas = this.jaulas.reduce((contadorJaula,n_linea) => {
+            //   contadorJaula[n_linea.linea.nombre] = (contadorJaula[n_linea.linea.nombre] || 0) + 1;
+            //   return contadorJaula;
+            // }, {})
+            var numeroJaulas = this.jaulasEstado.reduce((contadorJaula, n_linea) => {
+                if (this.paraPiscicultura) {
+                    if (n_linea.en_ciclo) {
+                        contadorJaula[n_linea.linea] = (contadorJaula[n_linea.linea] || 0) + 1;
+                    }
+                }
+                else {
+                    contadorJaula[n_linea.linea] = (contadorJaula[n_linea.linea] || 0) + 1;
+                }
                 return contadorJaula;
             }, {});
             for (let j of this.jaulasEstado) {
-                //for (let j of this.jaulas) {
-                //var alimentos :Alimento[]=[];
-                //let idSilos: String[];
-                //let silos : Silo [];
-                let linea = j.linea;
-                let peso = j.peso;
-                //let siloSel    = this.getSilo(j.doser._id);
-                //let siloSelMed = this.getSilo(j.doser_med._id);
-                var siloSel = this.silos.filter(x => x._id == j.silo)[0];
-                var siloSelMed = this.silos.filter(x => x._id == j.silomed)[0];
-                let V = j.visitas; // cantidad de Visitas
-                let HD = this.plan.hrsefectivas; // en [Hr], en la formula se multiplica por 60 para trabajar en [min]
-                let PPK = this.getAlimento(siloSel.alimentos[0].alimento).ppk; //Pellet Por Kilo
-                //CALCULO DE SFR Y SFR_MOD EN BLUFEEDER
-                // let SFR     = this.getSFR(peso,j.fasfr)[0]/100;//[SFR] Real para ocupar en formula como decimal
-                // let SFR_MOD = this.getSFR(peso,j.fasfr)[1];//[%SFR Modelo]
-                let SFR = (j.sgr * j.fasfr) / 100; //[SFR] Real para ocupar en formula como decimal
-                let SFR_MOD = j.sgr; //[%SFR Modelo]
-                let P = j.peces; //Cantidad de peces por jaula
-                let Biomasa = P * peso / 1000; //[Kg]
-                let KT = Biomasa * SFR; // Kilos Totale [Kg]
-                let J = numeroJaulas[linea]; //Numero de jaulas por linea
-                //Jaula virtual cuando hay solo uno
-                if (J == 1) {
-                    J = 2;
-                }
-                let TS = (j.tposop) / 60; //Tiempo de soplado [min]
-                let KPV = KT / V; // Kilos por visita por jaula
-                let PPV = (KPV * PPK) / P; // Pellet Pez Visita
-                let PPM = (KT * PPK) / (P * ((HD * 60) / J - (V * TS))); //Pellet Pez Minuto
-                let TEV = PPV / PPM;
-                let min_visita = TEV + TS; //Tempo de entrega de alimento por visita por jaula
-                let T = (P * PPM) / PPK; //Tasa[Kg/min]
-                let mintot = min_visita * V; // minutos totales alimentacion y soplado
-                let pporv = PPK * KPV;
-                var txtClassPPV = "text-success";
-                var txtClassPPM = "text-success";
-                if (min_visita > this.plan.minutosVisita + 0.005) {
-                    txtClassPPV = "text-danger";
-                }
-                j.ppk = PPK;
-                j.sfrmod = SFR_MOD;
-                j.realsfr = SFR * 100;
-                //j.visitas   = V;
-                j.kgtot = KT;
-                j.kgvisita = KPV;
-                j.ppv = PPV,
-                    j.ppm = PPM,
-                    j.kgm = T;
-                j.tpoalim = TEV * 60; // mostrar en [seg] Tpo entregado por visita; 
-                j.minvisita = min_visita;
-                j.mintot = mintot;
-                j.pporv = pporv;
-                j.txtClassPPV = txtClassPPV;
-                j.txtClassPPM = txtClassPPM;
-                //Crear array lineas
-                //Crear array lineas
-                let numJau = numeroJaulas[linea];
-                if (numJau == 1) {
-                    mintot = 2 * mintot;
-                }
-                let iLT = LT.map(x => x.linea).indexOf(linea);
-                if (iLT == -1) {
-                    var lt;
-                    lt = {
-                        linea: linea,
-                        tpo: mintot
-                    };
-                    LT.push(lt);
+                if (j.en_ciclo) {
+                    //for (let j of this.jaulas) {
+                    //var alimentos :Alimento[]=[];
+                    //let idSilos: String[];
+                    //let silos : Silo [];
+                    let linea = j.linea;
+                    let peso = j.peso;
+                    //let siloSel    = this.getSilo(j.doser._id);
+                    //let siloSelMed = this.getSilo(j.doser_med._id);
+                    var siloSel = this.silos.filter(x => x._id == j.silo)[0];
+                    var siloSelMed = this.silos.filter(x => x._id == j.silomed)[0];
+                    let V = j.visitas; // cantidad de Visitas
+                    let HD = this.plan.hrsefectivas; // en [Hr], en la formula se multiplica por 60 para trabajar en [min]
+                    let PPK = this.getAlimento(siloSel.alimentos[0].alimento).ppk; //Pellet Por Kilo
+                    //CALCULO DE SFR Y SFR_MOD EN BLUFEEDER
+                    // let SFR     = this.getSFR(peso,j.fasfr)[0]/100;//[SFR] Real para ocupar en formula como decimal
+                    // let SFR_MOD = this.getSFR(peso,j.fasfr)[1];//[%SFR Modelo]
+                    let SFR = (j.sgr * j.fasfr) / 100; //[SFR] Real para ocupar en formula como decimal
+                    let SFR_MOD = j.sgr; //[%SFR Modelo]
+                    let P = j.peces; //Cantidad de peces por jaula
+                    let Biomasa = P * peso / 1000; //[Kg]
+                    let KT = Biomasa * SFR; // Kilos Totale [Kg]
+                    let J = numeroJaulas[linea]; //Numero de jaulas por linea
+                    //Jaula virtual cuando hay solo uno
+                    if (J == 1) {
+                        J = 2;
+                    }
+                    let TS = (j.tposop) / 60; //Tiempo de soplado [min]
+                    let KPV = KT / V; // Kilos por visita por jaula
+                    let PPV = (KPV * PPK) / P; // Pellet Pez Visita
+                    let PPM = (KT * PPK) / (P * ((HD * 60) / J - (V * TS))); //Pellet Pez Minuto
+                    let TEV = PPV / PPM;
+                    let min_visita = TEV + TS; //Tempo de entrega de alimento por visita por jaula
+                    let T = (P * PPM) / PPK; //Tasa[Kg/min]
+                    let mintot = min_visita * V; // minutos totales alimentacion y soplado
+                    let pporv = PPK * KPV;
+                    var txtClassPPV = "text-success";
+                    var txtClassPPM = "text-success";
+                    if (min_visita > this.plan.minutosVisita + 0.005) {
+                        txtClassPPV = "text-danger";
+                    }
+                    //proporcion silo prim silo secu
+                    let propSilos = 0;
+                    if (j.kgtot > 0) {
+                        propSilos = j.kgsecu / j.kgtot;
+                    }
+                    j.kgsecu = propSilos * KT;
+                    j.kgprim = KT - j.kgsecu;
+                    j.ppk = PPK;
+                    j.sfrmod = SFR_MOD;
+                    j.realsfr = SFR * 100;
+                    //j.visitas   = V;
+                    j.kgtot = KT;
+                    j.kgvisita = KPV;
+                    j.ppv = PPV,
+                        j.ppm = PPM,
+                        j.kgm = T;
+                    j.tpoalim = TEV * 60; // mostrar en [seg] Tpo entregado por visita; 
+                    j.minvisita = min_visita;
+                    j.mintot = mintot;
+                    j.pporv = pporv;
+                    j.txtClassPPV = txtClassPPV;
+                    j.txtClassPPM = txtClassPPM;
+                    //Crear array lineas
+                    //Crear array lineas
+                    let numJau = numeroJaulas[linea];
+                    if (numJau == 1) {
+                        mintot = 2 * mintot;
+                    }
+                    let iLT = LT.map(x => x.linea).indexOf(linea);
+                    if (iLT == -1) {
+                        var lt;
+                        lt = {
+                            linea: linea,
+                            tpo: mintot
+                        };
+                        LT.push(lt);
+                    }
+                    else {
+                        LT[iLT].tpo += mintot;
+                    }
                 }
                 else {
-                    LT[iLT].tpo += mintot;
+                    j.txtClassPPV = "text-muted";
+                    j.txtClassPPM = "text-muted";
+                    j.kgtot = 0;
+                    j.kgprim = 0;
+                    j.kgsecu = 0;
                 }
             }
             for (let j of this.jaulasEstado) {
-                let lts;
-                lts = LT.filter(x => x.linea == j.linea)[0];
-                j.tpoLinea = lts.tpo / 60; // lts.tpo esta en [min] se cambia a [hr]
-                let diffTpo = this.plan.hrsefectivas - j.tpoLinea;
-                if (Math.abs(diffTpo) <= 0.15) {
-                    j.txtClassPPM = "text-success";
-                }
-                if (diffTpo < -0.15) {
-                    j.txtClassPPM = "text-danger";
-                }
-                if (diffTpo > 0.15) {
-                    j.txtClassPPM = "text-warning";
+                if (j.en_ciclo) {
+                    let lts;
+                    lts = LT.filter(x => x.linea == j.linea)[0];
+                    j.tpoLinea = lts.tpo / 60; // lts.tpo esta en [min] se cambia a [hr]
+                    let diffTpo = this.plan.hrsefectivas - j.tpoLinea;
+                    if (Math.abs(diffTpo) <= 0.15) {
+                        j.txtClassPPM = "text-success";
+                    }
+                    if (diffTpo < -0.15) {
+                        j.txtClassPPM = "text-danger";
+                    }
+                    if (diffTpo > 0.15) {
+                        j.txtClassPPM = "text-warning";
+                    }
                 }
             }
             // this.editarVisitas = false;
@@ -3796,7 +3829,7 @@ let ImportarComponent = /*@__PURE__*/ (() => {
             let itemE;
             itemE = this.jaulasEstado.filter(x => x._id == id)[0];
             sweetalert2__WEBPACK_IMPORTED_MODULE_6___default.a.fire({
-                title: 'Ajustar factor SFR',
+                title: 'Ajustar factor SGR',
                 text: '' + itemE.jaula,
                 input: 'number',
                 inputAttributes: {
@@ -3939,7 +3972,7 @@ let ImportarComponent = /*@__PURE__*/ (() => {
         //   this.aplicaFormulaCriterioExacto();
         // }
         recalculaTabla() {
-            //esta funcion se ajusta a los minutos visita configurados y al tiempo disponible / numero maxiomo de jaulas por linea
+            //esta funcion se ajusta a los minutos visita configurados y al tiempo disponible / numero maximo de jaulas por linea
             //let itemE: itemJaula;
             var LT = [];
             //Numero de Jaula
@@ -3950,99 +3983,92 @@ let ImportarComponent = /*@__PURE__*/ (() => {
                 return contadorJaula;
             }, {});
             for (let j of this.jaulasEstado) {
-                let linea = j.linea;
-                let peso = j.peso;
-                var siloSel = this.silos.filter(x => x._id == j.silo)[0];
-                var siloSelMed = this.silos.filter(x => x._id == j.silomed)[0];
-                let PPK = this.getAlimento(siloSel.alimentos[0].alimento).ppk; //Pellet Por Kilo
-                //CALCULO DE SFR Y SFR_MOD EN BLUFEEDER
-                // let SFR     = this.getSFR(peso,j.fasfr)[0]/100;//[SFR] Real para ocupar en formula como decimal
-                // let SFR_MOD = this.getSFR(peso,j.fasfr)[1];//[%SFR Modelo]
-                let SFR = (j.sgr * j.fasfr) / 100; //[SFR] Real para ocupar en formula como decimal
-                let SFR_MOD = j.sgr; //[%SFR Modelo]
-                let P = j.peces; //Cantidad de peces por jaula
-                let Biomasa = P * peso / 1000; //[Kg]
-                let KT = Biomasa * SFR; // Kilos Totale [Kg]
-                let J = numeroJaulas[linea]; //Numero de jaulas por linea
-                let TS = (j.tposop) / 60; //Tiempo de soplado [min]
-                let PPM = j.ppm;
-                let PPV = j.ppv;
-                let TEV = PPV / PPM;
-                let min_visita = TEV + TS;
-                let T = (P * PPM) / PPK; //Tasa[Kg/min]
-                let TAj = KT / T; // Tiempo total[min] de alimentación por jaula
-                let V = TAj / TEV; // cantidad de Visitas
-                let KPV = (P * PPV) / PPK; // Kilos por visita por jaula
-                let mintot = min_visita * V; // minutos totales alimentacion y soplado
-                let pporv = PPK * KPV;
-                var txtClassPPV = "text-success";
-                var txtClassPPM = "text-success";
-                if (min_visita > this.plan.minutosVisita + 0.005) {
-                    txtClassPPV = "text-danger";
-                }
-                j.ppk = PPK;
-                j.sfrmod = SFR_MOD;
-                j.realsfr = SFR * 100;
-                j.visitas = V;
-                j.kgtot = KT;
-                j.kgvisita = KPV;
-                j.kgm = T;
-                j.tpoalim = TEV * 60; // mostrar en [seg] Tpo entregado por visita; 
-                j.minvisita = min_visita;
-                j.mintot = mintot;
-                j.pporv = pporv;
-                j.txtClassPPV = txtClassPPV;
-                j.txtClassPPM = txtClassPPM;
-                j.biomasa = Biomasa;
-                //prueba 
-                // if(j.jaula == '09'){
-                //   console.log('Número:' + P);
-                //   console.log('Biomasa:' + Biomasa);
-                //   console.log('Peso:' + peso);
-                //   console.log('SFR Modelo:' + SFR_MOD);
-                //   console.log('Tiempo soplado:' + TS);
-                //   console.log('Kilos Totales:' + KT)
-                //   console.log('SFR Ocupado (Modelo*Factor Ajuste):' + SFR);
-                //   console.log('TEV (PPV/PPM):' + TEV);
-                //   console.log('PPM:' + PPM);
-                //   console.log('Velocidad:'+ T)
-                //   console.log('Tiempo total[min] de alimentación (TAj):' + TAj);
-                //   console.log('Visitas(TAj/TEV):' + V);
-                //   console.log('PPV:' + PPV);
-                //   console.log('Kilos por Visita:' + KPV);
-                //   console.log('Tiempo Total (Alimentacion mas soplado X Visitas):' + mintot);
-                // }
-                //Crear array lineas
-                let numJau = numeroJaulas[linea];
-                if (numJau == 1) {
-                    mintot = 2 * mintot;
-                }
-                let iLT = LT.map(x => x.linea).indexOf(linea);
-                if (iLT == -1) {
-                    var lt;
-                    lt = {
-                        linea: linea,
-                        tpo: mintot
-                    };
-                    LT.push(lt);
+                if (j.en_ciclo) {
+                    let linea = j.linea;
+                    let peso = j.peso;
+                    var siloSel = this.silos.filter(x => x._id == j.silo)[0];
+                    var siloSelMed = this.silos.filter(x => x._id == j.silomed)[0];
+                    let PPK = this.getAlimento(siloSel.alimentos[0].alimento).ppk; //Pellet Por Kilo
+                    //CALCULO DE SFR Y SFR_MOD EN BLUFEEDER
+                    // let SFR     = this.getSFR(peso,j.fasfr)[0]/100;//[SFR] Real para ocupar en formula como decimal
+                    // let SFR_MOD = this.getSFR(peso,j.fasfr)[1];//[%SFR Modelo]
+                    let SFR = (j.sgr * j.fasfr) / 100; //[SFR] Real para ocupar en formula como decimal
+                    let SFR_MOD = j.sgr; //[%SFR Modelo]
+                    let P = j.peces; //Cantidad de peces por jaula
+                    let Biomasa = P * peso / 1000; //[Kg]
+                    let KT = Biomasa * SFR; // Kilos Totale [Kg]
+                    let J = numeroJaulas[linea]; //Numero de jaulas por linea
+                    let TS = (j.tposop) / 60; //Tiempo de soplado [min]
+                    let PPM = j.ppm;
+                    let PPV = j.ppv;
+                    let TEV = PPV / PPM;
+                    let min_visita = TEV + TS;
+                    let T = (P * PPM) / PPK; //Tasa[Kg/min]
+                    let TAj = KT / T; // Tiempo total[min] de alimentación por jaula
+                    let V = TAj / TEV; // cantidad de Visitas
+                    let KPV = (P * PPV) / PPK; // Kilos por visita por jaula
+                    let mintot = min_visita * V; // minutos totales alimentacion y soplado
+                    let pporv = PPK * KPV;
+                    var txtClassPPV = "text-success";
+                    var txtClassPPM = "text-success";
+                    if (min_visita > this.plan.minutosVisita + 0.005) {
+                        txtClassPPV = "text-danger";
+                    }
+                    j.ppk = PPK;
+                    j.sfrmod = SFR_MOD;
+                    j.realsfr = SFR * 100;
+                    j.visitas = V;
+                    j.kgtot = KT;
+                    j.kgvisita = KPV;
+                    j.kgm = T;
+                    j.tpoalim = TEV * 60; // mostrar en [seg] Tpo entregado por visita; 
+                    j.minvisita = min_visita;
+                    j.mintot = mintot;
+                    j.pporv = pporv;
+                    j.txtClassPPV = txtClassPPV;
+                    j.txtClassPPM = txtClassPPM;
+                    j.biomasa = Biomasa;
+                    //Crear array lineas
+                    let numJau = numeroJaulas[linea];
+                    if (numJau == 1) {
+                        mintot = 2 * mintot;
+                    }
+                    let iLT = LT.map(x => x.linea).indexOf(linea);
+                    if (iLT == -1) {
+                        var lt;
+                        lt = {
+                            linea: linea,
+                            tpo: mintot
+                        };
+                        LT.push(lt);
+                    }
+                    else {
+                        LT[iLT].tpo += mintot;
+                    }
                 }
                 else {
-                    LT[iLT].tpo += mintot;
+                    j.txtClassPPV = "text-muted";
+                    j.txtClassPPM = "text-muted";
+                    j.kgtot = 0;
+                    j.kgprim = 0;
+                    j.kgsecu = 0;
                 }
             }
             for (let j of this.jaulasEstado) {
-                let lts;
-                lts = LT.filter(x => x.linea == j.linea)[0];
-                j.tpoLinea = lts.tpo / 60; // lts.tpo esta en [min] se cambia a [hr]
-                let diffTpo = this.plan.hrsefectivas - j.tpoLinea;
-                if (Math.abs(diffTpo) <= 0.15) {
-                    j.txtClassPPM = "text-success";
-                }
-                if (diffTpo < -0.15) {
-                    j.txtClassPPM = "text-danger";
-                }
-                if (diffTpo > 0.15) {
-                    j.txtClassPPM = "text-warning";
+                if (j.en_ciclo) {
+                    let lts;
+                    lts = LT.filter(x => x.linea == j.linea)[0];
+                    j.tpoLinea = lts.tpo / 60; // lts.tpo esta en [min] se cambia a [hr]
+                    let diffTpo = this.plan.hrsefectivas - j.tpoLinea;
+                    if (Math.abs(diffTpo) <= 0.15) {
+                        j.txtClassPPM = "text-success";
+                    }
+                    if (diffTpo < -0.15) {
+                        j.txtClassPPM = "text-danger";
+                    }
+                    if (diffTpo > 0.15) {
+                        j.txtClassPPM = "text-warning";
+                    }
                 }
             }
         }

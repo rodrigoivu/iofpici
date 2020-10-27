@@ -1599,6 +1599,11 @@ let CrecimientoComponent = /*@__PURE__*/ (() => {
                 this.ListaAlimentacion = resp.items;
                 this.generarTablaComprimida();
                 //this.autenticar_blucontrol();
+            }, (err) => {
+                if (!err.error.ok) {
+                    this.ListaAlimentacion = [];
+                    this.generarTablaComprimida();
+                }
             });
         }
         autenticar_blucontrol() {

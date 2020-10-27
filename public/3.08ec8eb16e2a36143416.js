@@ -6683,12 +6683,12 @@ let CalibracionComponent = /*@__PURE__*/ (() => {
         }
     }
     CalibracionComponent.ɵfac = function CalibracionComponent_Factory(t) { return new (t || CalibracionComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_service_index__WEBPACK_IMPORTED_MODULE_4__["WebsocketService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_service_index__WEBPACK_IMPORTED_MODULE_4__["ConfigcalibracionService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_service_index__WEBPACK_IMPORTED_MODULE_4__["DatacalibracionService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_service_index__WEBPACK_IMPORTED_MODULE_4__["DoserService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_service_index__WEBPACK_IMPORTED_MODULE_4__["LineaService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"])); };
-    CalibracionComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CalibracionComponent, selectors: [["app-calibracion"]], decls: 5, vars: 1, consts: [[1, "m-b-20"], [4, "ngFor", "ngForOf"], ["fxLayout", "row wrap", "fxLayoutGap", "3%"], ["fxFlex", "550px"], ["fxLayout", "row ", "fxLayoutGap", "3%", 1, "box"], ["fxFlex", "150px"], ["mat-stroked-button", "", 1, "text-warning", 3, "disabled", "click"], ["fxFlex", "20px", "fxLayoutAlign", "start center"], [1, "m-b-15", "m-t-0", 3, "ngClass"], ["class", "ti-check text-success ", 4, "ngIf"], [2, "font-size", "12px"], ["matInput", "", "placeholder", "Estimado [grs]", 3, "disabled", "ngModel"], ["matInput", "", "placeholder", "Entregado [grs]", "type", "number", 3, "ngModel", "ngModelChange"], ["fxLayout", "row ", "fxLayoutGap", "3%", 1, "m-t-5", "box"], ["fxLayout", "row wrap", 1, "m-t-10", "box"], ["fxFlex", "250px"], ["mat-raised-button", "", "color", "primary", 3, "disabled", "click"], ["fxFlex", "200px", "fxLayoutAlign", "start center"], [1, "m-l-20", "m-b-0", "m-t-0", 3, "ngClass"], ["fxFlex", "500px"], ["fxLayout", "row "], ["baseChart", "", "height", "130", 3, "datasets", "labels", "options", "colors", "legend", "chartType"], ["fxFlex", "450px"], [1, "m-b-0", "m-t-0", "m-l-40"], ["fxFlex", "400px"], [1, "ti-check", "text-success"]], template: function CalibracionComponent_Template(rf, ctx) {
+    CalibracionComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CalibracionComponent, selectors: [["app-calibracion"]], decls: 5, vars: 1, consts: [[1, "m-b-20"], [4, "ngFor", "ngForOf"], ["fxLayout", "row wrap", "fxLayoutGap", "3%"], ["fxFlex", "550px"], ["fxLayout", "row ", "fxLayoutGap", "3%", 1, "box"], ["fxFlex", "150px"], ["mat-stroked-button", "", 1, "text-warning", 3, "disabled", "click"], ["fxFlex", "20px", "fxLayoutAlign", "start center"], [1, "m-b-15", "m-t-0", 3, "ngClass"], ["class", "ti-check text-success ", 4, "ngIf"], [2, "font-size", "12px"], ["matInput", "", "placeholder", "Estimado [grs]", 3, "disabled", "ngModel"], ["matInput", "", "placeholder", "Entregado [grs]", "type", "number", 3, "ngModel", "ngModelChange"], ["fxLayout", "row ", "fxLayoutGap", "3%", 1, "m-t-5", "box"], ["fxLayout", "row wrap", 1, "m-t-10", "box"], ["fxFlex", "250px"], ["mat-raised-button", "", "color", "primary", 3, "disabled", "click"], ["fxFlex", "210px", "fxLayoutAlign", "end center"], [1, "m-l-20", "m-b-0", "m-t-0", 3, "ngClass"], ["fxFlex", "500px"], ["fxLayout", "row "], ["baseChart", "", "height", "130", 3, "datasets", "labels", "options", "colors", "legend", "chartType"], ["fxFlex", "450px"], [1, "m-b-0", "m-t-0", "m-l-40"], ["fxFlex", "400px"], [1, "ti-check", "text-success"]], template: function CalibracionComponent_Template(rf, ctx) {
             if (rf & 1) {
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card", 0);
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-card-header");
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-card-title");
-                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Calibraci\u00F3n de Dosers");
+                _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Calibraci\u00F3n de Tornillos");
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
                 _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -6866,7 +6866,7 @@ function ManejosilosComponent_div_5_td_20_Template(rf, ctx) {
     if (rf & 2) {
         const row_r24 = ctx.$implicit;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](2, 1, row_r24.saldo, "1.0-0", "es"), "\u00A0 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](2, 1, row_r24.saldo, "1.0-2", "es"), "\u00A0 ");
     }
 }
 function ManejosilosComponent_div_5_td_21_Template(rf, ctx) {
@@ -6879,7 +6879,7 @@ function ManejosilosComponent_div_5_td_21_Template(rf, ctx) {
     if (rf & 2) {
         const silo_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](2, 1, silo_r1.saldo, "1.0-0", "es"), "\u00A0 ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](2, 1, silo_r1.saldo, "1.0-2", "es"), "\u00A0 ");
     }
 }
 function ManejosilosComponent_div_5_th_23_Template(rf, ctx) {
@@ -6901,7 +6901,7 @@ function ManejosilosComponent_div_5_td_24_Template(rf, ctx) {
         const silo_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", row_r26.saldo > 0 ? "text-success" : "text-danger");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](2, 2, 100 * (row_r26.saldo / silo_r1.capacidad), "1.0-1", "es"), "\u00A0%");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](2, 2, 100 * (row_r26.saldo / silo_r1.capacidad), "1.0-2", "es"), "\u00A0%");
     }
 }
 function ManejosilosComponent_div_5_td_25_Template(rf, ctx) {
@@ -6915,7 +6915,7 @@ function ManejosilosComponent_div_5_td_25_Template(rf, ctx) {
         const silo_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]().$implicit;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", silo_r1.saldo > silo_r1.lim_noti ? "text-success" : "text-danger");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](2, 2, silo_r1.porcentaje, "1.0-1", "es"), "\u00A0% ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](2, 2, silo_r1.porcentaje, "1.0-2", "es"), "\u00A0% ");
     }
 }
 function ManejosilosComponent_div_5_tr_26_Template(rf, ctx) {
@@ -6996,7 +6996,7 @@ function ManejosilosComponent_div_5_Template(rf, ctx) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", silo_r1.saldo > silo_r1.lim_noti ? "text-success" : "text-danger");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](7, 9, silo_r1.porcentaje, "1.0-1", "es"), " %");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](7, 9, silo_r1.porcentaje, "1.0-2", "es"), " %");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("dataSource", silo_r1.alimentos);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](17);

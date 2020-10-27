@@ -11165,7 +11165,7 @@ function SiloComponent_td_52_Template(rf, ctx) {
     if (rf & 2) {
         const row_r21 = ctx.$implicit;
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](2, 1, row_r21.saldo, "1.0-0"), "\u00A0Kg ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](2, 1, row_r21.saldo, "1.0-2"), "\u00A0Kg ");
     }
 }
 function SiloComponent_th_54_Template(rf, ctx) {
