@@ -6505,8 +6505,8 @@ let CalibracionComponent = /*@__PURE__*/ (() => {
             var graficoActual = [0, 0, 0, 0, 0, 0, 0, 0];
             var graficoAnterior = [0, 0, 0, 0, 0, 0, 0, 0];
             var graficoHz = [0, 2.5, 5, 7.5, 10, 12.5, 15, 17.5];
-            var hzn = 10; // Hz nominal minimo
-            var tn; // tasa nominal a 10HZ
+            var hzn = 5; // Hz nominal minimo
+            var tn; // tasa nominal a 10HZ a 5 en piscicultura
             this.DataDosers[idx].msj = 'Guardando calibración...';
             this.DataDosers[idx].color_msj = false;
             //Detecta todos sobre cero
